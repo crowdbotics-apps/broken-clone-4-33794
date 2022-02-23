@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter');
+
+//Bootstrap color overrides
+$primary: #07072C !default;
+$secondary: #b73dbf !default;
+$light: #F0F0F3 !default;
+$body-color: $primary;
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #FFFFFF;
+}
+
+:root {
+  --font-family-main: 'Inter', sans-serif;
+
+  --color-bg: #07072C;
+  --color-text: #07072C;
+
+  --color-primary-text: #07072C;
+}
+
+.flex {display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex;}
+.jc-sb  {justify-content: space-between;}
+.jc-sa  {justify-content: space-around;height: auto;}
+.jc-fe  {justify-content: flex-end;}
+.jc-c   {justify-content: center;}
+.jc-fs  {justify-content: flex-start;}
+.jc-fe  {justify-content: flex-end;}
+.fd-c   {flex-direction: column;}
+.fd-rr  {flex-direction: row-reverse;}
+.ai-c   {-ms-align-items: center; align-items: center;}
+.ai-fe  {-ms-align-items: flex-end; align-items: flex-end;}
+.fw-w   {flex-wrap: wrap;}
+
+.zi-0 {
+  z-index: 0;
+}

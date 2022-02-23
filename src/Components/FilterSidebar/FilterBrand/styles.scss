@@ -1,0 +1,25 @@
+#multiselectContainerReact span.chip {
+    background: #07072C;
+    border-radius: 2px;
+}
+
+#multiselectContainerReact .optionListContainer ul.optionContainer li.option {
+    display: flex;
+    color: #07072C;
+    font-size: 14px;
+}
+
+#multiselectContainerReact .optionListContainer ul.optionContainer li.option:hover {
+    background: #07072C;
+    color: #FFFFFF;
+}
+
+#multiselectContainerReact .optionListContainer ul.optionContainer li.option input[type="checkbox"] {
+    border: 1px solid #07072C;
+    margin-top: 0;
+}
+
+#multiselectContainerReact .optionListContainer ul.optionContainer li.option:hover input[type="checkbox"] {
+    border: 1px solid #FFFFFF;
+    margin-top: 0;
+}

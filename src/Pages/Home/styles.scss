@@ -1,0 +1,14 @@
+.brand-card {
+  cursor: pointer;
+  &:hover {
+    a {
+      color: white
+    }
+  }
+}
+.link-arrow {
+  &::after {
+    content: '\2192';
+    margin-left: 5px;
+  }
+}
